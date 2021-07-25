@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name rsspeed)(type KiCad)(uri ${KIPRJMOD}/rsspeed.pretty)(options "")(descr ""))
+)

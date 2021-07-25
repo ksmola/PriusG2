@@ -1,0 +1,1567 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 8730 3970 2    50   ~ 0
+TIM2_CH2
+Text Label 8475 4070 2    50   ~ 0
+ADC2
+Text Label 8475 4170 2    50   ~ 0
+ADC3
+Text Label 8475 4270 2    50   ~ 0
+ADC4
+Wire Wire Line
+	8475 4270 8025 4270
+Wire Wire Line
+	8025 4170 8475 4170
+Wire Wire Line
+	8475 4070 8025 4070
+Text Label 8475 4470 2    50   ~ 0
+TIM3_CH1
+Text Label 8475 4570 2    50   ~ 0
+TIM3_CH2
+Wire Wire Line
+	8475 4570 8025 4570
+Wire Wire Line
+	8475 4470 8025 4470
+Text Label 5625 6470 0    50   ~ 0
+TIM1_CH1
+Text Label 5625 6670 0    50   ~ 0
+TIM1_CH2
+Text Label 5625 6870 0    50   ~ 0
+TIM1_CH3
+Wire Wire Line
+	6025 6870 5625 6870
+Wire Wire Line
+	5625 6670 6025 6670
+Wire Wire Line
+	6025 6470 5625 6470
+Text Label 8475 4970 2    50   ~ 0
+CAN_RX
+Text Label 8475 5070 2    50   ~ 0
+CAN_TX
+Wire Wire Line
+	8475 4970 8025 4970
+Wire Wire Line
+	8025 5070 8475 5070
+Text Label 8475 5170 2    50   ~ 0
+SWDIO
+Text Label 8475 5270 2    50   ~ 0
+SWCLK
+Text Label 8475 5570 2    50   ~ 0
+ADC8
+Text Label 8475 5670 2    50   ~ 0
+ADC9
+Text Label 8475 6170 2    50   ~ 0
+TIM4_CH1
+Text Label 8475 6570 2    50   ~ 0
+UART3_TX
+Text Label 8475 6670 2    50   ~ 0
+UART3_RX
+Text Label 8475 6770 2    50   ~ 0
+TIM1_BKIN
+Text Label 5625 6570 0    50   ~ 0
+TIM1_CH2N
+Wire Wire Line
+	5625 6570 6025 6570
+Wire Wire Line
+	8475 6670 8025 6670
+Wire Wire Line
+	8025 6570 8475 6570
+Wire Wire Line
+	8025 6170 8475 6170
+Wire Wire Line
+	8475 5670 8025 5670
+$Comp
+L prius_gen2-rescue:LED-Device D1
+U 1 1 60D335B5
+P 8810 8470
+F 0 "D1" H 8810 8560 50  0000 C CNN
+F 1 "LED" H 8810 8370 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 8810 8470 50  0001 C CNN
+F 3 "~" H 8810 8470 50  0001 C CNN
+	1    8810 8470
+	1    0    0    -1  
+$EndComp
+$Comp
+L prius_gen2-rescue:R-Device R2
+U 1 1 60D33E43
+P 9260 8470
+F 0 "R2" V 9180 8470 50  0000 C CNN
+F 1 "1k" V 9340 8470 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9190 8470 50  0001 C CNN
+F 3 "~" H 9260 8470 50  0001 C CNN
+	1    9260 8470
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9410 8470 9560 8470
+$Comp
+L prius_gen2-rescue:+3V3-power #PWR0102
+U 1 1 60D354CA
+P 9560 7910
+F 0 "#PWR0102" H 9560 7760 50  0001 C CNN
+F 1 "+3V3" H 9575 8083 50  0000 C CNN
+F 2 "" H 9560 7910 50  0001 C CNN
+F 3 "" H 9560 7910 50  0001 C CNN
+	1    9560 7910
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9560 7910 9560 8210
+Wire Wire Line
+	8960 8470 9110 8470
+Text Label 5150 3870 0    50   ~ 0
+nRESET
+$Comp
+L prius_gen2-rescue:Crystal-Device Y1
+U 1 1 60D4741B
+P 4900 4670
+F 0 "Y1" H 4900 4938 50  0000 C CNN
+F 1 "8MHz" H 4900 4847 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm" H 4900 4670 50  0001 C CNN
+F 3 "~" H 4900 4670 50  0001 C CNN
+F 4 "C115962" H 4900 4670 50  0001 C CNN "LCSC"
+	1    4900 4670
+	1    0    0    -1  
+$EndComp
+$Comp
+L prius_gen2-rescue:C-Device C1
+U 1 1 60D48CE0
+P 4650 4870
+F 0 "C1" H 4535 4824 50  0000 R CNN
+F 1 "20pF" H 4535 4915 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 4720 50  0001 C CNN
+F 3 "~" H 4650 4870 50  0001 C CNN
+F 4 "C105621" H 4650 4870 50  0001 C CNN "LCSC"
+F 5 "CC0603JRNPO9BN200" H 4650 4870 50  0001 C CNN "mpn"
+	1    4650 4870
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 4720 4650 4670
+Wire Wire Line
+	4650 4670 4750 4670
+Wire Wire Line
+	5050 4670 5150 4670
+Wire Wire Line
+	5150 4720 5150 4670
+Connection ~ 5150 4670
+$Comp
+L prius_gen2-rescue:GND-power #PWR0103
+U 1 1 60D4DCF8
+P 4900 5120
+F 0 "#PWR0103" H 4900 4870 50  0001 C CNN
+F 1 "GND" H 4905 4947 50  0000 C CNN
+F 2 "" H 4900 5120 50  0001 C CNN
+F 3 "" H 4900 5120 50  0001 C CNN
+	1    4900 5120
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5120 4900 5070
+Wire Wire Line
+	4900 5070 4650 5070
+Wire Wire Line
+	4650 5070 4650 5020
+Wire Wire Line
+	4900 5070 5150 5070
+Wire Wire Line
+	5150 5070 5150 5020
+Connection ~ 4900 5070
+Wire Wire Line
+	4650 4670 4650 4570
+Connection ~ 4650 4670
+Text Label 5625 7470 0    50   ~ 0
+TIM3_ETR
+Wire Wire Line
+	5625 7470 6025 7470
+Text Label 8425 7270 2    50   ~ 0
+ADC10
+Text Label 8425 7370 2    50   ~ 0
+ADC11
+Text Label 8425 7470 2    50   ~ 0
+ADC12
+Text Label 8425 7570 2    50   ~ 0
+ADC13
+Text Label 8425 7670 2    50   ~ 0
+ADC14
+Wire Wire Line
+	8425 7670 8025 7670
+Wire Wire Line
+	8025 7570 8425 7570
+Wire Wire Line
+	8425 7470 8025 7470
+Wire Wire Line
+	8025 7370 8425 7370
+Wire Wire Line
+	8425 7270 8025 7270
+Text Label 8425 7870 2    50   ~ 0
+REV
+Wire Wire Line
+	8025 7870 8425 7870
+Text Label 8425 8570 2    50   ~ 0
+PC13
+Wire Wire Line
+	8025 8570 8425 8570
+$Comp
+L prius_gen2-rescue:+3V3-power #PWR0104
+U 1 1 60D717BF
+P 8800 3020
+F 0 "#PWR0104" H 8800 2870 50  0001 C CNN
+F 1 "+3V3" H 8815 3193 50  0000 C CNN
+F 2 "" H 8800 3020 50  0001 C CNN
+F 3 "" H 8800 3020 50  0001 C CNN
+	1    8800 3020
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 3020 8800 3220
+$Comp
+L prius_gen2-rescue:IRLZ34N-Transistor_FET Q1
+U 1 1 60DBEF5A
+P 2100 2450
+F 0 "Q1" H 2304 2496 50  0000 L CNN
+F 1 "IRLZ14SPBF" H 2304 2405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 2350 2375 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720" H 2100 2450 50  0001 L CNN
+	1    2100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L prius_gen2-rescue:IRLZ34N-Transistor_FET Q2
+U 1 1 60DC043A
+P 2100 3300
+F 0 "Q2" H 2304 3346 50  0000 L CNN
+F 1 "IRLZ14SPBF" H 2304 3255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 2350 3225 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720" H 2100 3300 50  0001 L CNN
+	1    2100 3300
+	1    0    0    -1  
+$EndComp
+Text Label 1600 2450 0    50   ~ 0
+ADC9
+Text Label 1600 3300 0    50   ~ 0
+PC13
+Wire Wire Line
+	1600 3300 1845 3300
+Wire Wire Line
+	1600 2450 1835 2450
+Text Label 2600 2200 0    50   ~ 0
+OUT_PRE
+Text Label 2600 3050 0    50   ~ 0
+OUT_DCSW
+Wire Wire Line
+	2600 3050 2200 3050
+Wire Wire Line
+	2200 3050 2200 3100
+Wire Wire Line
+	2200 2250 2200 2200
+Wire Wire Line
+	2200 2200 2600 2200
+$Comp
+L prius_gen2-rescue:GND-power #PWR0109
+U 1 1 60DDEB05
+P 2200 3650
+F 0 "#PWR0109" H 2200 3400 50  0001 C CNN
+F 1 "GND" H 2205 3477 50  0000 C CNN
+F 2 "" H 2200 3650 50  0001 C CNN
+F 3 "" H 2200 3650 50  0001 C CNN
+	1    2200 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3500 2200 3650
+$Comp
+L prius_gen2-rescue:GND-power #PWR0110
+U 1 1 60DE7EEB
+P 2200 2750
+F 0 "#PWR0110" H 2200 2500 50  0001 C CNN
+F 1 "GND" H 2205 2577 50  0000 C CNN
+F 2 "" H 2200 2750 50  0001 C CNN
+F 3 "" H 2200 2750 50  0001 C CNN
+	1    2200 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2750 2200 2650
+$Comp
+L prius_gen2-rescue:R-Device R5
+U 1 1 6105F833
+P 8800 6770
+F 0 "R5" V 8593 6770 50  0000 C CNN
+F 1 "10K" V 8684 6770 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8730 6770 50  0001 C CNN
+F 3 "~" H 8800 6770 50  0001 C CNN
+	1    8800 6770
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8025 6770 8650 6770
+$Comp
+L prius_gen2-rescue:+3V3-power #PWR0111
+U 1 1 610710C7
+P 9075 6695
+F 0 "#PWR0111" H 9075 6545 50  0001 C CNN
+F 1 "+3V3" H 9090 6868 50  0000 C CNN
+F 2 "" H 9075 6695 50  0001 C CNN
+F 3 "" H 9075 6695 50  0001 C CNN
+	1    9075 6695
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9075 6695 9075 6770
+Wire Wire Line
+	9075 6770 8950 6770
+$Comp
+L prius_gen2-rescue:R-Device R4
+U 1 1 610B1A1A
+P 8945 3970
+F 0 "R4" V 8738 3970 50  0000 C CNN
+F 1 "10K" V 8829 3970 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8875 3970 50  0001 C CNN
+F 3 "~" H 8945 3970 50  0001 C CNN
+	1    8945 3970
+	0    1    1    0   
+$EndComp
+$Comp
+L prius_gen2-rescue:+3V3-power #PWR0112
+U 1 1 610B1A20
+P 9195 3895
+F 0 "#PWR0112" H 9195 3745 50  0001 C CNN
+F 1 "+3V3" H 9210 4068 50  0000 C CNN
+F 2 "" H 9195 3895 50  0001 C CNN
+F 3 "" H 9195 3895 50  0001 C CNN
+	1    9195 3895
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9195 3895 9195 3970
+Wire Wire Line
+	9195 3970 9095 3970
+$Sheet
+S 13640 5345 825  650 
+U 611064E9
+F0 "Level Shifting" 50
+F1 "level_shifting.sch" 50
+F2 "GIVA" I L 13640 5420 50 
+F3 "MIVA" I L 13640 5520 50 
+F4 "GIWA" I L 13640 5620 50 
+F5 "MIWA" I L 13640 5720 50 
+F6 "ADC5" I L 13640 5820 50 
+F7 "ADC8" I L 13640 5920 50 
+F8 "MIVT" I R 14465 5420 50 
+F9 "ADC14" I R 14465 5520 50 
+F10 "VH" I R 14465 5620 50 
+F11 "ADC13" I R 14465 5720 50 
+$EndSheet
+$Sheet
+S 11390 4370 1275 1750
+U 611C056E
+F0 "Connectors" 50
+F1 "connectors.sch" 50
+F2 "ENC_B" I L 11390 4545 50 
+F3 "ENC_A" I L 11390 4470 50 
+F4 "R2" I L 11390 4820 50 
+F5 "THROTTLE1" I L 11390 4920 50 
+F6 "SIG_START" I L 11390 5020 50 
+F7 "SIG_FWD" I L 11390 5120 50 
+F8 "MTEMP-" I L 11390 5220 50 
+F9 "OUT_DCSW" I L 11390 5320 50 
+F10 "CAN_L" I R 12665 4595 50 
+F11 "R1" I L 11390 4720 50 
+F12 "THROTTLE2" I R 12665 4920 50 
+F13 "SIG_BRAKE" I R 12665 5020 50 
+F14 "SIG_REV" I R 12665 5120 50 
+F15 "MTEMP+" I R 12665 5220 50 
+F16 "OUT_PRE" I R 12665 5320 50 
+F17 "CAN_H" I R 12665 4520 50 
+F18 "GIVA" I R 12665 5420 50 
+F19 "MIVA" I R 12665 5520 50 
+F20 "GIWA" I R 12665 5620 50 
+F21 "MIWA" I R 12665 5720 50 
+F22 "VH" I R 12665 5820 50 
+F23 "MFIV" I R 12665 5920 50 
+F24 "MIVT" I R 12665 6020 50 
+F25 "TIM1_CH2N" I L 11390 5420 50 
+F26 "TIM1_CH3" I L 11390 5520 50 
+F27 "TIM1_CH2" I L 11390 5620 50 
+F28 "TIM1_CH1" I L 11390 5720 50 
+F29 "TIM1_BKIN" I L 11390 5820 50 
+$EndSheet
+Text Label 14765 6920 2    50   ~ 0
+SWDIO
+Text Label 14765 7020 2    50   ~ 0
+SWCLK
+Text Label 14765 7320 2    50   ~ 0
+nRESET
+$Comp
+L prius_gen2-rescue:GND-power #PWR0113
+U 1 1 60E63029
+P 13715 8170
+F 0 "#PWR0113" H 13715 7920 50  0001 C CNN
+F 1 "GND" H 13720 7997 50  0000 C CNN
+F 2 "" H 13715 8170 50  0001 C CNN
+F 3 "" H 13715 8170 50  0001 C CNN
+	1    13715 8170
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13715 8170 13715 8070
+Wire Wire Line
+	13715 8070 13965 8070
+NoConn ~ 13965 8170
+Wire Wire Line
+	13690 7970 13965 7970
+Wire Wire Line
+	13965 7870 13690 7870
+Wire Wire Line
+	13690 7770 13965 7770
+Text Label 13690 7970 0    50   ~ 0
+SWCLK
+Text Label 13690 7870 0    50   ~ 0
+nRESET
+Text Label 13690 7770 0    50   ~ 0
+SWDIO
+Wire Wire Line
+	13965 7670 13790 7670
+$Comp
+L prius_gen2-rescue:+3V3-power #PWR0114
+U 1 1 60E4C8B5
+P 13790 7670
+F 0 "#PWR0114" H 13790 7520 50  0001 C CNN
+F 1 "+3V3" H 13805 7843 50  0000 C CNN
+F 2 "" H 13790 7670 50  0001 C CNN
+F 3 "" H 13790 7670 50  0001 C CNN
+	1    13790 7670
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 14415 7120
+NoConn ~ 14415 7220
+Wire Wire Line
+	14765 7320 14415 7320
+Wire Wire Line
+	14415 7020 14765 7020
+Wire Wire Line
+	14765 6920 14415 6920
+NoConn ~ 13915 7220
+Wire Wire Line
+	13765 7120 13765 7320
+Connection ~ 13765 7120
+Wire Wire Line
+	13915 7120 13765 7120
+Connection ~ 13765 7320
+Wire Wire Line
+	13765 7020 13765 7120
+Wire Wire Line
+	13915 7020 13765 7020
+Wire Wire Line
+	13765 7320 13765 7345
+Wire Wire Line
+	13915 7320 13765 7320
+$Comp
+L prius_gen2-rescue:GND-power #PWR0115
+U 1 1 60E0BE1B
+P 13765 7345
+F 0 "#PWR0115" H 13765 7095 50  0001 C CNN
+F 1 "GND" H 13770 7172 50  0000 C CNN
+F 2 "" H 13765 7345 50  0001 C CNN
+F 3 "" H 13765 7345 50  0001 C CNN
+	1    13765 7345
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13765 6920 13915 6920
+$Comp
+L prius_gen2-rescue:+3V3-power #PWR0116
+U 1 1 60E06F4A
+P 13765 6920
+F 0 "#PWR0116" H 13765 6770 50  0001 C CNN
+F 1 "+3V3" H 13780 7093 50  0000 C CNN
+F 2 "" H 13765 6920 50  0001 C CNN
+F 3 "" H 13765 6920 50  0001 C CNN
+	1    13765 6920
+	0    -1   -1   0   
+$EndComp
+$Comp
+L prius_gen2-rescue:Conn_01x06-Connector_Generic J2
+U 1 1 60E06842
+P 14165 7870
+F 0 "J2" H 14245 7862 50  0000 L CNN
+F 1 "Conn_01x06" H 14245 7771 50  0000 L CNN
+F 2 "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical" H 14165 7870 50  0001 C CNN
+F 3 "~" H 14165 7870 50  0001 C CNN
+	1    14165 7870
+	1    0    0    -1  
+$EndComp
+$Comp
+L prius_gen2-rescue:Conn_02x05_Odd_Even-Connector_Generic J1
+U 1 1 60E05B6A
+P 14115 7120
+F 0 "J1" H 14165 7537 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 14165 7446 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 14115 7120 50  0001 C CNN
+F 3 "~" H 14115 7120 50  0001 C CNN
+	1    14115 7120
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	13290 8495 13290 6495
+Wire Notes Line
+	13315 6495 15015 6495
+Text Notes 13340 6620 0    50   ~ 0
+SWD DEBUG
+$Sheet
+S 11390 6720 800  375 
+U 60EAB2A4
+F0 "Resolver" 50
+F1 "resolver.sch" 50
+F2 "TIM3_ETR" I R 12190 6820 50 
+F3 "R1" I R 12190 6920 50 
+F4 "R2" I R 12190 7020 50 
+$EndSheet
+$Sheet
+S 13340 3795 825  200 
+U 60E19204
+F0 "Power Supply" 50
+F1 "powersupply.sch" 50
+$EndSheet
+Wire Wire Line
+	14215 4520 14665 4520
+Text Label 14665 4770 2    50   ~ 0
+UART3_TX
+Text Label 14665 4870 2    50   ~ 0
+UART3_RX
+Text Label 14665 4620 2    50   ~ 0
+CAN_RX
+Text Label 14665 4520 2    50   ~ 0
+CAN_TX
+Wire Wire Line
+	14665 4620 14215 4620
+Text Label 5625 7070 0    50   ~ 0
+TIM1_BKIN
+Wire Wire Line
+	5625 7070 6025 7070
+$Comp
+L prius_gen2-rescue:C-Device C12
+U 1 1 6108895C
+P 5970 2725
+F 0 "C12" H 6085 2771 50  0000 L CNN
+F 1 "4.7u" H 6085 2680 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6008 2575 50  0001 C CNN
+F 3 "~" H 5970 2725 50  0001 C CNN
+	1    5970 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L prius_gen2-rescue:Ferrite_Bead-Device FB1
+U 1 1 6109619A
+P 8400 3220
+F 0 "FB1" V 8674 3220 50  0000 C CNN
+F 1 "Ferrite_Bead" V 8583 3220 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 8330 3220 50  0001 C CNN
+F 3 "~" H 8400 3220 50  0001 C CNN
+	1    8400 3220
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 3220 8800 3220
+$Sheet
+S 2025 9100 1025 1075
+U 610CA2CA
+F0 "Input Filter" 50
+F1 "inputfilter.sch" 50
+F2 "SIG_START" I L 2025 9200 50 
+F3 "SIG_BRAKE" I L 2025 9300 50 
+F4 "SIG_FWD" I L 2025 9400 50 
+F5 "SIG_REV" I L 2025 9500 50 
+F6 "REV" I R 3050 9500 50 
+F7 "ADC4" I R 3050 9600 50 
+F8 "ADC2" I R 3050 9700 50 
+F9 "TIM4_CH1" I R 3050 9800 50 
+F10 "ADC3" I R 3050 9900 50 
+F11 "ENC_B" I L 2025 9700 50 
+F12 "TIM3_CH2" I R 3050 10000 50 
+F13 "ENC_A" I L 2025 9600 50 
+F14 "TIM3_CH1" I L 2025 9800 50 
+F15 "MTEMP+" I R 3050 9200 50 
+F16 "MTEMP-" I R 3050 9300 50 
+F17 "ADC12" I R 3050 9400 50 
+F18 "ADC10" I L 2025 9900 50 
+F19 "THROTTLE2" I L 2025 10100 50 
+F20 "ADC11" I R 3050 10100 50 
+F21 "THROTTLE1" I L 2025 10000 50 
+$EndSheet
+Text Label 3500 9200 2    50   ~ 0
+MTEMP+
+Wire Wire Line
+	3500 9200 3050 9200
+Text Label 13165 5220 2    50   ~ 0
+MTEMP+
+Wire Wire Line
+	13165 5220 12665 5220
+Text Label 10890 5220 0    50   ~ 0
+MTEMP-
+Wire Wire Line
+	10890 5220 11390 5220
+Text Label 3500 9300 2    50   ~ 0
+MTEMP-
+Wire Wire Line
+	3500 9300 3050 9300
+Text Label 1550 9200 0    50   ~ 0
+SIG_START
+Text Label 1550 9300 0    50   ~ 0
+SIG_BRAKE
+Wire Wire Line
+	1550 9300 2025 9300
+Wire Wire Line
+	1550 9200 2025 9200
+Text Label 1550 9400 0    50   ~ 0
+SIG_FWD
+Wire Wire Line
+	1550 9400 2025 9400
+Text Label 1550 9500 0    50   ~ 0
+SIG_REV
+Wire Wire Line
+	1550 9500 2025 9500
+Text Label 1550 9600 0    50   ~ 0
+ENC_A
+Text Label 1550 9700 0    50   ~ 0
+ENC_B
+Wire Wire Line
+	1550 9700 2025 9700
+Wire Wire Line
+	2025 9600 1550 9600
+Text Label 10890 4470 0    50   ~ 0
+ENC_A
+Text Label 10890 4545 0    50   ~ 0
+ENC_B
+Wire Wire Line
+	10890 4470 11390 4470
+Wire Wire Line
+	11390 4545 10890 4545
+Text Label 1550 9800 0    50   ~ 0
+TIM3_CH1
+Wire Wire Line
+	1550 9800 2025 9800
+Text Label 1550 9900 0    50   ~ 0
+ADC10
+Wire Wire Line
+	1550 9900 2025 9900
+Text Label 1550 10000 0    50   ~ 0
+THROTTLE1
+Text Label 1550 10100 0    50   ~ 0
+THROTTLE2
+Wire Wire Line
+	1550 10100 2025 10100
+Wire Wire Line
+	2025 10000 1550 10000
+Text Label 13165 4920 2    50   ~ 0
+THROTTLE2
+Wire Wire Line
+	13165 4920 12665 4920
+Text Label 13165 5020 2    50   ~ 0
+SIG_BRAKE
+Wire Wire Line
+	13165 5020 12665 5020
+Text Label 13165 5120 2    50   ~ 0
+SIG_REV
+Wire Wire Line
+	13165 5120 12665 5120
+Text Label 10890 5120 0    50   ~ 0
+SIG_FWD
+Wire Wire Line
+	10890 5120 11390 5120
+Text Label 10890 5020 0    50   ~ 0
+SIG_START
+Wire Wire Line
+	10890 5020 11390 5020
+Text Label 10890 4920 0    50   ~ 0
+THROTTLE1
+Wire Wire Line
+	11390 4920 10890 4920
+Text Label 3500 9400 2    50   ~ 0
+ADC12
+Wire Wire Line
+	3500 9400 3050 9400
+Text Label 3500 9600 2    50   ~ 0
+ADC4
+Wire Wire Line
+	3500 9600 3050 9600
+Text Label 3500 9700 2    50   ~ 0
+ADC2
+Wire Wire Line
+	3500 9700 3050 9700
+Text Label 3500 9800 2    50   ~ 0
+TIM4_CH1
+Wire Wire Line
+	3050 9800 3500 9800
+Text Label 3500 9900 2    50   ~ 0
+ADC3
+Wire Wire Line
+	3500 9900 3050 9900
+Text Label 3500 10000 2    50   ~ 0
+TIM3_CH2
+Wire Wire Line
+	3500 10000 3050 10000
+Text Label 3500 10100 2    50   ~ 0
+ADC11
+Wire Wire Line
+	3500 10100 3050 10100
+Text Label 3500 9500 2    50   ~ 0
+REV
+Wire Wire Line
+	3050 9500 3500 9500
+Text Label 10890 5320 0    50   ~ 0
+OUT_DCSW
+Wire Wire Line
+	10890 5320 11390 5320
+Text Label 13165 5320 2    50   ~ 0
+OUT_PRE
+Wire Wire Line
+	13165 5320 12665 5320
+Wire Wire Line
+	13640 5420 12665 5420
+Wire Wire Line
+	12665 5520 13640 5520
+Wire Wire Line
+	13640 5620 12665 5620
+Wire Wire Line
+	12665 5720 13640 5720
+Text Label 12865 6020 2    50   ~ 0
+MIVT
+Wire Wire Line
+	12865 6020 12665 6020
+Text Label 14740 5420 2    50   ~ 0
+MIVT
+Wire Wire Line
+	14740 5420 14465 5420
+Text Label 12865 5920 2    50   ~ 0
+MFIV
+Wire Wire Line
+	12865 5920 12665 5920
+Text Label 12865 5820 2    50   ~ 0
+VH
+Wire Wire Line
+	12865 5820 12665 5820
+Text Label 14740 5620 2    50   ~ 0
+VH
+Wire Wire Line
+	14740 5620 14465 5620
+Text Label 14740 5520 2    50   ~ 0
+ADC14
+Wire Wire Line
+	14465 5520 14740 5520
+Text Label 14740 5720 2    50   ~ 0
+ADC13
+Wire Wire Line
+	14740 5720 14465 5720
+Text Label 10890 5420 0    50   ~ 0
+TIM1_CH2N
+Wire Wire Line
+	10890 5420 11390 5420
+Text Label 10890 5520 0    50   ~ 0
+TIM1_CH3
+Text Label 10890 5620 0    50   ~ 0
+TIM1_CH2
+Text Label 10890 5720 0    50   ~ 0
+TIM1_CH1
+Text Label 10890 5820 0    50   ~ 0
+TIM1_BKIN
+Wire Wire Line
+	11390 5820 10890 5820
+Wire Wire Line
+	10890 5720 11390 5720
+Wire Wire Line
+	10890 5620 11390 5620
+Wire Wire Line
+	11390 5520 10890 5520
+Text Label 12565 6920 2    50   ~ 0
+R1
+Wire Wire Line
+	12565 6920 12190 6920
+Text Label 12565 7020 2    50   ~ 0
+R2
+Wire Wire Line
+	12565 7020 12190 7020
+Text Label 12565 6820 2    50   ~ 0
+TIM3_ETR
+Wire Wire Line
+	12565 6820 12190 6820
+Text Label 10890 4720 0    50   ~ 0
+R1
+Text Label 10890 4820 0    50   ~ 0
+R2
+Wire Wire Line
+	10890 4820 11390 4820
+Wire Wire Line
+	11390 4720 10890 4720
+$Comp
+L prius_gen2-rescue:R-Device R1
+U 1 1 6175DF8C
+P 4700 3870
+F 0 "R1" H 4770 3916 50  0000 L CNN
+F 1 "10k" H 4770 3825 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4630 3870 50  0001 C CNN
+F 3 "~" H 4700 3870 50  0001 C CNN
+	1    4700 3870
+	0    -1   -1   0   
+$EndComp
+$Comp
+L prius_gen2-rescue:+3V3-power #PWR0118
+U 1 1 6175E332
+P 4450 3870
+F 0 "#PWR0118" H 4450 3720 50  0001 C CNN
+F 1 "+3V3" H 4465 4043 50  0000 C CNN
+F 2 "" H 4450 3870 50  0001 C CNN
+F 3 "" H 4450 3870 50  0001 C CNN
+	1    4450 3870
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 3870 4450 3870
+$Comp
+L prius_gen2-rescue:GND-power #PWR0119
+U 1 1 6177B34E
+P 5500 3295
+F 0 "#PWR0119" H 5500 3045 50  0001 C CNN
+F 1 "GND" H 5505 3122 50  0000 C CNN
+F 2 "" H 5500 3295 50  0001 C CNN
+F 3 "" H 5500 3295 50  0001 C CNN
+	1    5500 3295
+	-1   0    0    1   
+$EndComp
+$Comp
+L prius_gen2-rescue:SW_Push-Switch SW2
+U 1 1 617B9E6A
+P 4975 3645
+F 0 "SW2" V 4929 3793 50  0000 L CNN
+F 1 "SW_Push" V 5020 3793 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_EVQQ2" H 4975 3845 50  0001 C CNN
+F 3 "~" H 4975 3845 50  0001 C CNN
+	1    4975 3645
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 3870 4975 3870
+Wire Wire Line
+	4975 3845 4975 3870
+Connection ~ 4975 3870
+$Comp
+L prius_gen2-rescue:GND-power #PWR0120
+U 1 1 617E354E
+P 4975 3295
+F 0 "#PWR0120" H 4975 3045 50  0001 C CNN
+F 1 "GND" H 4980 3122 50  0000 C CNN
+F 2 "" H 4975 3295 50  0001 C CNN
+F 3 "" H 4975 3295 50  0001 C CNN
+	1    4975 3295
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4975 3295 4975 3445
+Wire Wire Line
+	4975 3870 5500 3870
+Connection ~ 5500 3870
+$Comp
+L prius_gen2-rescue:R-Device R3
+U 1 1 618360B5
+P 5225 4270
+F 0 "R3" H 5295 4316 50  0000 L CNN
+F 1 "10k" H 5295 4225 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5155 4270 50  0001 C CNN
+F 3 "~" H 5225 4270 50  0001 C CNN
+	1    5225 4270
+	1    0    0    -1  
+$EndComp
+$Comp
+L prius_gen2-rescue:GND-power #PWR0121
+U 1 1 61836533
+P 5225 4470
+F 0 "#PWR0121" H 5225 4220 50  0001 C CNN
+F 1 "GND" H 5230 4297 50  0000 C CNN
+F 2 "" H 5225 4470 50  0001 C CNN
+F 3 "" H 5225 4470 50  0001 C CNN
+	1    5225 4470
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5225 4070 5225 4120
+Wire Wire Line
+	5225 4470 5225 4420
+$Comp
+L prius_gen2-rescue:SW_Push-Switch SW1
+U 1 1 61853B13
+P 4925 4070
+F 0 "SW1" H 5125 4145 50  0000 C CNN
+F 1 "SW_Push" H 4925 3995 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_EVQQ2" H 4925 4270 50  0001 C CNN
+F 3 "~" H 4925 4270 50  0001 C CNN
+	1    4925 4070
+	1    0    0    -1  
+$EndComp
+$Comp
+L prius_gen2-rescue:+3V3-power #PWR0122
+U 1 1 61854CA0
+P 4450 4070
+F 0 "#PWR0122" H 4450 3920 50  0001 C CNN
+F 1 "+3V3" H 4465 4243 50  0000 C CNN
+F 2 "" H 4450 4070 50  0001 C CNN
+F 3 "" H 4450 4070 50  0001 C CNN
+	1    4450 4070
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 4070 4725 4070
+Wire Wire Line
+	5125 4070 5225 4070
+Connection ~ 5225 4070
+Wire Wire Line
+	8025 5570 8475 5570
+Text Label 13290 5820 0    50   ~ 0
+ADC5
+Text Label 13290 5920 0    50   ~ 0
+ADC8
+Wire Wire Line
+	13290 5920 13640 5920
+Wire Wire Line
+	13640 5820 13290 5820
+$Comp
+L prius_gen2-rescue:PWR_FLAG-power #FLG0105
+U 1 1 61ABCAE8
+P 11090 7670
+F 0 "#FLG0105" H 11090 7745 50  0001 C CNN
+F 1 "PWR_FLAG" H 11090 7843 50  0000 C CNN
+F 2 "" H 11090 7670 50  0001 C CNN
+F 3 "~" H 11090 7670 50  0001 C CNN
+	1    11090 7670
+	1    0    0    -1  
+$EndComp
+$Comp
+L prius_gen2-rescue:GND-power #PWR0185
+U 1 1 61ABE723
+P 11090 7770
+F 0 "#PWR0185" H 11090 7520 50  0001 C CNN
+F 1 "GND" H 11095 7597 50  0000 C CNN
+F 2 "" H 11090 7770 50  0001 C CNN
+F 3 "" H 11090 7770 50  0001 C CNN
+	1    11090 7770
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11090 7770 11090 7670
+Wire Wire Line
+	13290 4520 12665 4520
+Wire Wire Line
+	12665 4595 13290 4595
+$Sheet
+S 13290 4420 925  525 
+U 60EC424A
+F0 "Communication" 50
+F1 "communication.sch" 50
+F2 "TXDCAN" I R 14215 4520 50 
+F3 "RXDCAN" I R 14215 4620 50 
+F4 "CANH" I L 13290 4520 50 
+F5 "CANL" I L 13290 4595 50 
+F6 "ESP_PARAM_RX" I R 14215 4770 50 
+F7 "ESP_PARAM_TX" I R 14215 4870 50 
+$EndSheet
+Wire Wire Line
+	14665 4870 14215 4870
+Wire Wire Line
+	14215 4770 14665 4770
+$Comp
+L prius_gen2-rescue:TestPoint-Connector TP1
+U 1 1 60FD29FA
+P 11715 7645
+F 0 "TP1" H 11773 7763 50  0000 L CNN
+F 1 "TestPoint" H 11773 7672 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 11915 7645 50  0001 C CNN
+F 3 "~" H 11915 7645 50  0001 C CNN
+	1    11715 7645
+	1    0    0    -1  
+$EndComp
+$Comp
+L prius_gen2-rescue:TestPoint-Connector TP2
+U 1 1 60FD7C7A
+P 11715 8045
+F 0 "TP2" H 11773 8163 50  0000 L CNN
+F 1 "TestPoint" H 11773 8072 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 11915 8045 50  0001 C CNN
+F 3 "~" H 11915 8045 50  0001 C CNN
+	1    11715 8045
+	1    0    0    -1  
+$EndComp
+Text Label 12140 7770 2    50   ~ 0
+UART3_TX
+Wire Wire Line
+	12140 7770 11715 7770
+Wire Wire Line
+	11715 7770 11715 7645
+Text Label 12115 8195 2    50   ~ 0
+UART3_RX
+Wire Wire Line
+	12115 8195 11715 8195
+Wire Wire Line
+	11715 8195 11715 8045
+Wire Wire Line
+	8025 5270 8475 5270
+Wire Wire Line
+	4650 4570 6025 4570
+Wire Wire Line
+	5150 4670 6025 4670
+$Comp
+L prius_gen2-rescue:C-Device C2
+U 1 1 610AB54D
+P 5150 4870
+F 0 "C2" H 5035 4824 50  0000 R CNN
+F 1 "20pF" H 5035 4915 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5188 4720 50  0001 C CNN
+F 3 "~" H 5150 4870 50  0001 C CNN
+F 4 "C105621" H 5150 4870 50  0001 C CNN "LCSC"
+F 5 "CC0603JRNPO9BN200" H 5150 4870 50  0001 C CNN "mpn"
+	1    5150 4870
+	-1   0    0    1   
+$EndComp
+$Comp
+L prius_gen2-rescue:+3V3-power #PWR01
+U 1 1 610E6C84
+P 6925 3370
+F 0 "#PWR01" H 6925 3220 50  0001 C CNN
+F 1 "+3V3" H 6940 3543 50  0000 C CNN
+F 2 "" H 6925 3370 50  0001 C CNN
+F 3 "" H 6925 3370 50  0001 C CNN
+	1    6925 3370
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6925 3570 6925 3470
+Wire Wire Line
+	6925 3470 7025 3470
+Connection ~ 6925 3470
+Wire Wire Line
+	6925 3470 6925 3370
+Wire Wire Line
+	5500 3870 6025 3870
+Wire Wire Line
+	5225 4070 6025 4070
+Wire Wire Line
+	7025 3570 7025 3470
+Connection ~ 7025 3470
+Wire Wire Line
+	7025 3470 7125 3470
+Wire Wire Line
+	7125 3570 7125 3470
+Connection ~ 7125 3470
+Wire Wire Line
+	7125 3470 7225 3470
+Wire Wire Line
+	7225 3570 7225 3470
+Connection ~ 7225 3470
+Wire Wire Line
+	7225 3470 7325 3470
+Wire Wire Line
+	7325 3570 7325 3470
+Connection ~ 7325 3470
+Wire Wire Line
+	7325 3470 7425 3470
+Wire Wire Line
+	7425 3570 7425 3470
+$Comp
+L prius_gen2-rescue:C_Small-Device C3
+U 1 1 6125D44E
+P 6375 2670
+F 0 "C3" H 6467 2716 50  0000 L CNN
+F 1 "100nF" H 6467 2625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6375 2670 50  0001 C CNN
+F 3 "~" H 6375 2670 50  0001 C CNN
+	1    6375 2670
+	1    0    0    -1  
+$EndComp
+$Comp
+L prius_gen2-rescue:C_Small-Device C5
+U 1 1 6127923A
+P 6725 2670
+F 0 "C5" H 6817 2716 50  0000 L CNN
+F 1 "100nF" H 6817 2625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6725 2670 50  0001 C CNN
+F 3 "~" H 6725 2670 50  0001 C CNN
+	1    6725 2670
+	1    0    0    -1  
+$EndComp
+$Comp
+L prius_gen2-rescue:C_Small-Device C6
+U 1 1 61284E1A
+P 7075 2670
+F 0 "C6" H 7167 2716 50  0000 L CNN
+F 1 "100nF" H 7167 2625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7075 2670 50  0001 C CNN
+F 3 "~" H 7075 2670 50  0001 C CNN
+	1    7075 2670
+	1    0    0    -1  
+$EndComp
+$Comp
+L prius_gen2-rescue:C_Small-Device C7
+U 1 1 61290496
+P 7375 2670
+F 0 "C7" H 7467 2716 50  0000 L CNN
+F 1 "100nF" H 7467 2625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7375 2670 50  0001 C CNN
+F 3 "~" H 7375 2670 50  0001 C CNN
+	1    7375 2670
+	1    0    0    -1  
+$EndComp
+$Comp
+L prius_gen2-rescue:C_Small-Device C8
+U 1 1 6129B9C2
+P 7725 2670
+F 0 "C8" H 7817 2716 50  0000 L CNN
+F 1 "100nF" H 7817 2625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7725 2670 50  0001 C CNN
+F 3 "~" H 7725 2670 50  0001 C CNN
+	1    7725 2670
+	1    0    0    -1  
+$EndComp
+$Comp
+L prius_gen2-rescue:C_Small-Device C9
+U 1 1 612A6E62
+P 8075 2670
+F 0 "C9" H 8167 2716 50  0000 L CNN
+F 1 "100nF" H 8167 2625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8075 2670 50  0001 C CNN
+F 3 "~" H 8075 2670 50  0001 C CNN
+	1    8075 2670
+	1    0    0    -1  
+$EndComp
+$Comp
+L prius_gen2-rescue:C_Small-Device C11
+U 1 1 612B2555
+P 8125 3370
+F 0 "C11" H 8217 3416 50  0000 L CNN
+F 1 "100nF" H 8217 3325 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8125 3370 50  0001 C CNN
+F 3 "~" H 8125 3370 50  0001 C CNN
+	1    8125 3370
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6375 2570 6375 2520
+Wire Wire Line
+	6375 2520 6725 2520
+Wire Wire Line
+	8075 2570 8075 2520
+Wire Wire Line
+	7725 2570 7725 2520
+Connection ~ 7725 2520
+Wire Wire Line
+	7725 2520 8075 2520
+Wire Wire Line
+	7375 2570 7375 2520
+Connection ~ 7375 2520
+Wire Wire Line
+	7375 2520 7725 2520
+Wire Wire Line
+	7075 2570 7075 2520
+Connection ~ 7075 2520
+Wire Wire Line
+	7075 2520 7375 2520
+Wire Wire Line
+	6725 2570 6725 2520
+Connection ~ 6725 2520
+Wire Wire Line
+	6725 2520 7075 2520
+Wire Wire Line
+	6375 2770 6375 2820
+Wire Wire Line
+	6375 2820 6725 2820
+Wire Wire Line
+	8075 2770 8075 2820
+Wire Wire Line
+	7725 2770 7725 2820
+Connection ~ 7725 2820
+Wire Wire Line
+	7725 2820 8075 2820
+Wire Wire Line
+	7375 2770 7375 2820
+Connection ~ 7375 2820
+Wire Wire Line
+	7375 2820 7725 2820
+Wire Wire Line
+	7075 2770 7075 2820
+Connection ~ 7075 2820
+Wire Wire Line
+	7075 2820 7375 2820
+Wire Wire Line
+	6725 2770 6725 2820
+Connection ~ 6725 2820
+Wire Wire Line
+	6725 2820 7075 2820
+$Comp
+L prius_gen2-rescue:+3V3-power #PWR02
+U 1 1 6135B613
+P 6375 2520
+F 0 "#PWR02" H 6375 2370 50  0001 C CNN
+F 1 "+3V3" H 6390 2693 50  0000 C CNN
+F 2 "" H 6375 2520 50  0001 C CNN
+F 3 "" H 6375 2520 50  0001 C CNN
+	1    6375 2520
+	1    0    0    -1  
+$EndComp
+Connection ~ 6375 2520
+$Comp
+L prius_gen2-rescue:GND-power #PWR03
+U 1 1 61379DE4
+P 6375 2920
+F 0 "#PWR03" H 6375 2670 50  0001 C CNN
+F 1 "GND" H 6380 2747 50  0000 C CNN
+F 2 "" H 6375 2920 50  0001 C CNN
+F 3 "" H 6375 2920 50  0001 C CNN
+	1    6375 2920
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6375 2920 6375 2890
+Connection ~ 6375 2820
+Wire Wire Line
+	7525 3220 7525 3355
+$Comp
+L prius_gen2-rescue:C_Small-Device C10
+U 1 1 6146D762
+P 5500 3575
+F 0 "C10" H 5592 3621 50  0000 L CNN
+F 1 "100nF" H 5592 3530 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5500 3575 50  0001 C CNN
+F 3 "~" H 5500 3575 50  0001 C CNN
+	1    5500 3575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3295 5500 3475
+Wire Wire Line
+	5500 3675 5500 3870
+Wire Wire Line
+	6375 2520 5970 2520
+Wire Wire Line
+	5970 2520 5970 2575
+Wire Wire Line
+	6375 2890 5970 2890
+Wire Wire Line
+	5970 2875 5970 2890
+Connection ~ 6375 2890
+Wire Wire Line
+	6375 2890 6375 2820
+$Comp
+L prius_gen2-rescue:GND-power #PWR0101
+U 1 1 614CD5A0
+P 8125 3520
+F 0 "#PWR0101" H 8125 3270 50  0001 C CNN
+F 1 "GND" H 8130 3347 50  0000 C CNN
+F 2 "" H 8125 3520 50  0001 C CNN
+F 3 "" H 8125 3520 50  0001 C CNN
+	1    8125 3520
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7525 3220 8125 3220
+Wire Wire Line
+	8125 3520 8125 3470
+Wire Wire Line
+	8125 3270 8125 3220
+Connection ~ 8125 3220
+Wire Wire Line
+	8125 3220 8250 3220
+$Comp
+L prius_gen2-rescue:GND-power #PWR0105
+U 1 1 615732D1
+P 5740 4465
+F 0 "#PWR0105" H 5740 4215 50  0001 C CNN
+F 1 "GND" H 5745 4292 50  0000 C CNN
+F 2 "" H 5740 4465 50  0001 C CNN
+F 3 "" H 5740 4465 50  0001 C CNN
+	1    5740 4465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6025 4370 5935 4370
+Wire Wire Line
+	5935 4370 5935 4465
+Wire Wire Line
+	5935 4465 5740 4465
+$Comp
+L prius_gen2-rescue:C_Small-Device C4
+U 1 1 61593454
+P 5740 4295
+F 0 "C4" H 5832 4341 50  0000 L CNN
+F 1 "100nF" H 5832 4250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5740 4295 50  0001 C CNN
+F 3 "~" H 5740 4295 50  0001 C CNN
+	1    5740 4295
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6025 4270 5935 4270
+Wire Wire Line
+	5935 4270 5935 4195
+Wire Wire Line
+	5935 4195 5740 4195
+Wire Wire Line
+	5740 4465 5740 4395
+Connection ~ 5740 4465
+$Comp
+L prius_gen2-rescue:VDDA-power #PWR0106
+U 1 1 615E00C1
+P 7525 3220
+F 0 "#PWR0106" H 7525 3070 50  0001 C CNN
+F 1 "VDDA" H 7540 3393 50  0000 C CNN
+F 2 "" H 7525 3220 50  0001 C CNN
+F 3 "" H 7525 3220 50  0001 C CNN
+	1    7525 3220
+	1    0    0    -1  
+$EndComp
+$Comp
+L prius_gen2-rescue:VDDA-power #PWR0107
+U 1 1 615E12D3
+P 5740 4195
+F 0 "#PWR0107" H 5740 4045 50  0001 C CNN
+F 1 "VDDA" H 5755 4368 50  0000 C CNN
+F 2 "" H 5740 4195 50  0001 C CNN
+F 3 "" H 5740 4195 50  0001 C CNN
+	1    5740 4195
+	1    0    0    -1  
+$EndComp
+Connection ~ 5740 4195
+Connection ~ 7525 3220
+Wire Wire Line
+	8025 3970 8795 3970
+$Comp
+L prius_gen2-rescue:STM32F103VBTx-MCU_ST_STM32F1 U9
+U 1 1 60F76AC7
+P 7025 6270
+F 0 "U9" H 7585 3495 50  0000 C CNN
+F 1 "STM32F103VBTx" H 7770 3405 50  0000 C CNN
+F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 6225 3670 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 7025 6270 50  0001 C CNN
+	1    7025 6270
+	1    0    0    -1  
+$EndComp
+Text Label 8475 4370 2    50   ~ 0
+ADC5
+Wire Wire Line
+	8475 4370 8025 4370
+Wire Wire Line
+	8025 8470 8660 8470
+Wire Wire Line
+	6925 9070 6925 9305
+Wire Wire Line
+	7425 9305 7425 9070
+Wire Wire Line
+	7325 9070 7325 9305
+Connection ~ 7325 9305
+Wire Wire Line
+	7325 9305 7425 9305
+Wire Wire Line
+	6925 9305 7025 9305
+Wire Wire Line
+	7225 9070 7225 9305
+Connection ~ 7225 9305
+Wire Wire Line
+	7225 9305 7325 9305
+Wire Wire Line
+	7125 9070 7125 9305
+Connection ~ 7125 9305
+Wire Wire Line
+	7125 9305 7225 9305
+Wire Wire Line
+	7025 9070 7025 9305
+Connection ~ 7025 9305
+Wire Wire Line
+	7025 9305 7125 9305
+$Comp
+L prius_gen2-rescue:GND-power #PWR0108
+U 1 1 619F8865
+P 7425 9305
+F 0 "#PWR0108" H 7425 9055 50  0001 C CNN
+F 1 "GND" H 7430 9132 50  0000 C CNN
+F 2 "" H 7425 9305 50  0001 C CNN
+F 3 "" H 7425 9305 50  0001 C CNN
+	1    7425 9305
+	1    0    0    -1  
+$EndComp
+Connection ~ 7425 9305
+NoConn ~ 6025 5570
+NoConn ~ 6025 5670
+NoConn ~ 6025 5770
+NoConn ~ 6025 5870
+NoConn ~ 6025 5970
+NoConn ~ 6025 6070
+NoConn ~ 6025 6170
+NoConn ~ 6025 6270
+NoConn ~ 6025 6370
+NoConn ~ 6025 6770
+NoConn ~ 6025 6970
+NoConn ~ 6025 7270
+NoConn ~ 6025 7370
+NoConn ~ 6025 7570
+NoConn ~ 6025 7670
+NoConn ~ 6025 7770
+NoConn ~ 6025 7870
+NoConn ~ 6025 7970
+NoConn ~ 6025 8070
+NoConn ~ 6025 8170
+NoConn ~ 6025 8270
+NoConn ~ 6025 8370
+NoConn ~ 6025 8470
+NoConn ~ 6025 8570
+NoConn ~ 6025 8670
+NoConn ~ 6025 8770
+NoConn ~ 8025 8770
+NoConn ~ 8025 8670
+NoConn ~ 8025 8270
+NoConn ~ 8025 8170
+NoConn ~ 8025 8070
+NoConn ~ 8025 7970
+NoConn ~ 8025 7770
+NoConn ~ 8025 7070
+NoConn ~ 8025 6970
+NoConn ~ 8025 6870
+NoConn ~ 8025 6470
+NoConn ~ 8025 6370
+NoConn ~ 8025 6270
+NoConn ~ 8025 6070
+NoConn ~ 8025 5970
+NoConn ~ 8025 5870
+NoConn ~ 8025 5770
+NoConn ~ 8025 5370
+NoConn ~ 8025 4870
+NoConn ~ 8025 4770
+NoConn ~ 8025 4670
+NoConn ~ 8025 3870
+$Comp
+L prius_gen2-rescue:R-Device R62
+U 1 1 61D3D68F
+P 1835 2655
+F 0 "R62" H 1905 2701 50  0000 L CNN
+F 1 "10k" H 1905 2610 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1765 2655 50  0001 C CNN
+F 3 "~" H 1835 2655 50  0001 C CNN
+	1    1835 2655
+	1    0    0    -1  
+$EndComp
+$Comp
+L prius_gen2-rescue:GND-power #PWR0117
+U 1 1 61D3D695
+P 1835 2855
+F 0 "#PWR0117" H 1835 2605 50  0001 C CNN
+F 1 "GND" H 1840 2682 50  0000 C CNN
+F 2 "" H 1835 2855 50  0001 C CNN
+F 3 "" H 1835 2855 50  0001 C CNN
+	1    1835 2855
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1835 2855 1835 2805
+Wire Wire Line
+	1835 2505 1835 2450
+Connection ~ 1835 2450
+Wire Wire Line
+	1835 2450 1900 2450
+$Comp
+L prius_gen2-rescue:R-Device R63
+U 1 1 61D6DCC6
+P 1845 3525
+F 0 "R63" H 1915 3571 50  0000 L CNN
+F 1 "10k" H 1915 3480 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1775 3525 50  0001 C CNN
+F 3 "~" H 1845 3525 50  0001 C CNN
+	1    1845 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L prius_gen2-rescue:GND-power #PWR0186
+U 1 1 61D6DCCC
+P 1845 3725
+F 0 "#PWR0186" H 1845 3475 50  0001 C CNN
+F 1 "GND" H 1850 3552 50  0000 C CNN
+F 2 "" H 1845 3725 50  0001 C CNN
+F 3 "" H 1845 3725 50  0001 C CNN
+	1    1845 3725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1845 3725 1845 3675
+Wire Wire Line
+	1845 3300 1845 3375
+Connection ~ 1845 3300
+Wire Wire Line
+	1845 3300 1900 3300
+$Comp
+L prius_gen2-rescue:PWR_FLAG-power #FLG0104
+U 1 1 61E79AA7
+P 7525 3355
+F 0 "#FLG0104" H 7525 3430 50  0001 C CNN
+F 1 "PWR_FLAG" V 7525 3483 50  0000 L CNN
+F 2 "" H 7525 3355 50  0001 C CNN
+F 3 "~" H 7525 3355 50  0001 C CNN
+	1    7525 3355
+	0    1    1    0   
+$EndComp
+Connection ~ 7525 3355
+Wire Wire Line
+	7525 3355 7525 3570
+Wire Wire Line
+	8025 5170 8475 5170
+Wire Notes Line
+	15015 6495 15015 8495
+Wire Notes Line
+	15015 8495 13290 8495
+$Comp
+L prius_gen2-rescue:LED-Device D7
+U 1 1 61096953
+P 8805 8210
+F 0 "D7" H 8805 8305 50  0000 C CNN
+F 1 "LED" H 8810 8115 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 8805 8210 50  0001 C CNN
+F 3 "~" H 8805 8210 50  0001 C CNN
+	1    8805 8210
+	1    0    0    -1  
+$EndComp
+$Comp
+L prius_gen2-rescue:R-Device R64
+U 1 1 61096A35
+P 9265 8210
+F 0 "R64" V 9180 8210 50  0000 C CNN
+F 1 "1k" V 9350 8215 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9195 8210 50  0001 C CNN
+F 3 "~" H 9265 8210 50  0001 C CNN
+	1    9265 8210
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8025 8370 8565 8370
+Wire Wire Line
+	8565 8370 8565 8210
+Wire Wire Line
+	8565 8210 8655 8210
+Wire Wire Line
+	8955 8210 9115 8210
+Wire Wire Line
+	9415 8210 9560 8210
+Connection ~ 9560 8210
+Wire Wire Line
+	9560 8210 9560 8470
+Text Notes 9175 8075 0    50   ~ 0
+error
+Text Notes 9150 8650 0    50   ~ 0
+status
+$EndSCHEMATC
