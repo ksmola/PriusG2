@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L prius_gen2-rescue:GND-power #PWR?
+L prius_gen2-rescue:GND-power-prius_gen2-rescue #PWR?
 U 1 1 611D14C9
 P 3700 5680
 AR Path="/611D14C9" Ref="#PWR?"  Part="1" 
@@ -27,7 +27,7 @@ F 3 "" H 3700 5680 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L prius_gen2-rescue:+12V-power #PWR?
+L prius_gen2-rescue:+12V-power-prius_gen2-rescue #PWR?
 U 1 1 611D14DA
 P 3725 5225
 AR Path="/611D14DA" Ref="#PWR?"  Part="1" 
@@ -40,7 +40,7 @@ F 3 "" H 3725 5225 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L prius_gen2-rescue:R-Device R?
+L prius_gen2-rescue:R-Device-prius_gen2-rescue R?
 U 1 1 611D14EF
 P 2800 2125
 AR Path="/611D14EF" Ref="R?"  Part="1" 
@@ -53,7 +53,7 @@ F 3 "~" H 2800 2125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L prius_gen2-rescue:GND-power #PWR?
+L prius_gen2-rescue:GND-power-prius_gen2-rescue #PWR?
 U 1 1 611D14F6
 P 3200 3125
 AR Path="/611D14F6" Ref="#PWR?"  Part="1" 
@@ -66,7 +66,7 @@ F 3 "" H 3200 3125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L prius_gen2-rescue:R-Device R?
+L prius_gen2-rescue:R-Device-prius_gen2-rescue R?
 U 1 1 611D14FC
 P 3550 2825
 AR Path="/611D14FC" Ref="R?"  Part="1" 
@@ -79,7 +79,7 @@ F 3 "~" H 3550 2825 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L prius_gen2-rescue:C-Device C?
+L prius_gen2-rescue:C-Device-prius_gen2-rescue C?
 U 1 1 611D1502
 P 3200 2825
 AR Path="/611D1502" Ref="C?"  Part="1" 
@@ -91,13 +91,11 @@ F 3 "~" H 3200 2825 50  0001 C CNN
 	1    3200 2825
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3825 2625 3550 2625
 Connection ~ 2800 2625
 Wire Wire Line
 	2800 2625 2800 2275
 $Comp
-L prius_gen2-rescue:+5V-power #PWR?
+L prius_gen2-rescue:+5V-power-prius_gen2-rescue #PWR?
 U 1 1 611D150B
 P 2800 1850
 AR Path="/611D150B" Ref="#PWR?"  Part="1" 
@@ -111,8 +109,6 @@ F 3 "" H 2800 1850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3200 3025 3550 3025
-Wire Wire Line
-	3825 2625 3825 3025
 Connection ~ 3200 3025
 Wire Wire Line
 	3200 3025 3200 2975
@@ -120,10 +116,6 @@ Wire Wire Line
 	3550 3025 3550 2975
 Wire Wire Line
 	3550 2675 3550 2625
-Connection ~ 3550 3025
-Wire Wire Line
-	3550 3025 3825 3025
-Connection ~ 3550 2625
 Wire Wire Line
 	3550 2625 3200 2625
 Wire Wire Line
@@ -132,7 +124,7 @@ Connection ~ 3200 2625
 Wire Wire Line
 	3200 2625 2800 2625
 $Comp
-L prius_gen2-rescue:+5V-power #PWR?
+L prius_gen2-rescue:+5V-power-prius_gen2-rescue #PWR?
 U 1 1 611D1521
 P 3750 3825
 AR Path="/611D1521" Ref="#PWR?"  Part="1" 
@@ -191,7 +183,7 @@ MFIV
 Text HLabel 8600 4025 0    50   Input ~ 0
 MIVT
 $Comp
-L prius_gen2-rescue:ULN2003A-Transistor_Array U3
+L prius_gen2-rescue:ULN2003A-Transistor_Array-prius_gen2-rescue U3
 U 1 1 6120D8B4
 P 7150 4125
 F 0 "U3" H 7150 4792 50  0000 C CNN
@@ -212,7 +204,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 3925 6750 3925
 $Comp
-L prius_gen2-rescue:R-Device R26
+L prius_gen2-rescue:R-Device-prius_gen2-rescue R26
 U 1 1 6121673C
 P 6600 3100
 F 0 "R26" H 6670 3146 50  0000 L CNN
@@ -223,7 +215,7 @@ F 3 "~" H 6600 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L prius_gen2-rescue:+5V-power #PWR0136
+L prius_gen2-rescue:+5V-power-prius_gen2-rescue #PWR0136
 U 1 1 61216AB4
 P 6600 2825
 F 0 "#PWR0136" H 6600 2675 50  0001 C CNN
@@ -255,7 +247,7 @@ Wire Wire Line
 Wire Wire Line
 	6575 4525 6750 4525
 $Comp
-L prius_gen2-rescue:GND-power #PWR0137
+L prius_gen2-rescue:GND-power-prius_gen2-rescue #PWR0137
 U 1 1 6121F68A
 P 5825 4500
 F 0 "#PWR0137" H 5825 4250 50  0001 C CNN
@@ -266,7 +258,7 @@ F 3 "" H 5825 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L prius_gen2-rescue:C-Device C19
+L prius_gen2-rescue:C-Device-prius_gen2-rescue C19
 U 1 1 6121FA1F
 P 5525 4250
 F 0 "C19" H 5640 4296 50  0000 L CNN
@@ -277,7 +269,7 @@ F 3 "~" H 5525 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L prius_gen2-rescue:R-Device R25
+L prius_gen2-rescue:R-Device-prius_gen2-rescue R25
 U 1 1 61220142
 P 5825 4250
 F 0 "R25" H 5895 4296 50  0000 L CNN
@@ -288,7 +280,7 @@ F 3 "~" H 5825 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L prius_gen2-rescue:R-Device R24
+L prius_gen2-rescue:R-Device-prius_gen2-rescue R24
 U 1 1 612205C1
 P 5825 3800
 F 0 "R24" H 5895 3846 50  0000 L CNN
@@ -325,7 +317,7 @@ Connection ~ 5825 4450
 Wire Wire Line
 	5825 4450 5825 4500
 $Comp
-L prius_gen2-rescue:Conn_01x23-Connector_Generic J3
+L prius_gen2-rescue:Conn_01x23-Connector_Generic-prius_gen2-rescue J3
 U 1 1 60E8BF4D
 P 4175 4425
 F 0 "J3" H 4255 4467 50  0000 L CNN
@@ -336,7 +328,7 @@ F 3 "~" H 4175 4425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L prius_gen2-rescue:Conn_01x14-Connector_Generic J4
+L prius_gen2-rescue:Conn_01x14-Connector_Generic-prius_gen2-rescue J4
 U 1 1 60E8DD9D
 P 8950 4125
 F 0 "J4" H 9030 4117 50  0000 L CNN
@@ -347,7 +339,7 @@ F 3 "~" H 8950 4125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L prius_gen2-rescue:GND-power #PWR0138
+L prius_gen2-rescue:GND-power-prius_gen2-rescue #PWR0138
 U 1 1 60EB22A1
 P 8600 4990
 F 0 "#PWR0138" H 8600 4740 50  0001 C CNN
@@ -409,7 +401,7 @@ Wire Wire Line
 Wire Wire Line
 	3975 3725 3725 3725
 $Comp
-L prius_gen2-rescue:+5V-power #PWR?
+L prius_gen2-rescue:+5V-power-prius_gen2-rescue #PWR?
 U 1 1 60F57711
 P 3725 5125
 AR Path="/60F57711" Ref="#PWR?"  Part="1" 
@@ -456,7 +448,7 @@ Text Notes 5275 6175 0    50   ~ 0
 Wire Wire Line
 	3975 5025 3725 5025
 $Comp
-L prius_gen2-rescue:GND-power #PWR0187
+L prius_gen2-rescue:GND-power-prius_gen2-rescue #PWR0187
 U 1 1 61DA82E4
 P 7150 4850
 F 0 "#PWR0187" H 7150 4600 50  0001 C CNN
