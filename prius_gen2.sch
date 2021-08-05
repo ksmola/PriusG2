@@ -773,40 +773,6 @@ Wire Wire Line
 Wire Wire Line
 	14215 4770 14665 4770
 $Comp
-L prius_gen2-rescue:TestPoint-Connector-prius_gen2-rescue TP1
-U 1 1 60FD29FA
-P 11715 7645
-F 0 "TP1" H 11773 7763 50  0000 L CNN
-F 1 "TestPoint" H 11773 7672 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 11915 7645 50  0001 C CNN
-F 3 "~" H 11915 7645 50  0001 C CNN
-	1    11715 7645
-	1    0    0    -1  
-$EndComp
-$Comp
-L prius_gen2-rescue:TestPoint-Connector-prius_gen2-rescue TP2
-U 1 1 60FD7C7A
-P 11715 8045
-F 0 "TP2" H 11773 8163 50  0000 L CNN
-F 1 "TestPoint" H 11773 8072 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 11915 8045 50  0001 C CNN
-F 3 "~" H 11915 8045 50  0001 C CNN
-	1    11715 8045
-	1    0    0    -1  
-$EndComp
-Text Label 12140 7770 2    50   ~ 0
-UART3_TX
-Wire Wire Line
-	12140 7770 11715 7770
-Wire Wire Line
-	11715 7770 11715 7645
-Text Label 12115 8195 2    50   ~ 0
-UART3_RX
-Wire Wire Line
-	12115 8195 11715 8195
-Wire Wire Line
-	11715 8195 11715 8045
-$Comp
 L prius_gen2-rescue:+3V3-power-prius_gen2-rescue #PWR01
 U 1 1 610E6C84
 P 7150 3575
