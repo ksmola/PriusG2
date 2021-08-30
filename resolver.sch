@@ -16,39 +16,6 @@ $EndDescr
 Text HLabel 4000 3050 0    50   Input ~ 0
 TIM3_ETR
 $Comp
-L prius_gen2-rescue:R-Device-prius_gen2-rescue R27
-U 1 1 60EAC28E
-P 4275 3050
-F 0 "R27" V 4068 3050 50  0000 C CNN
-F 1 "3.3k" V 4159 3050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4205 3050 50  0001 C CNN
-F 3 "~" H 4275 3050 50  0001 C CNN
-	1    4275 3050
-	0    1    1    0   
-$EndComp
-$Comp
-L prius_gen2-rescue:R-Device-prius_gen2-rescue R28
-U 1 1 60EAC478
-P 4750 3050
-F 0 "R28" V 4543 3050 50  0000 C CNN
-F 1 "3.3k" V 4634 3050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 3050 50  0001 C CNN
-F 3 "~" H 4750 3050 50  0001 C CNN
-	1    4750 3050
-	0    1    1    0   
-$EndComp
-$Comp
-L prius_gen2-rescue:R-Device-prius_gen2-rescue R29
-U 1 1 60EAC5BA
-P 5225 3050
-F 0 "R29" V 5018 3050 50  0000 C CNN
-F 1 "3.3k" V 5109 3050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5155 3050 50  0001 C CNN
-F 3 "~" H 5225 3050 50  0001 C CNN
-	1    5225 3050
-	0    1    1    0   
-$EndComp
-$Comp
 L prius_gen2-rescue:R-Device-prius_gen2-rescue R30
 U 1 1 60EAC728
 P 5975 3275
@@ -269,7 +236,7 @@ L prius_gen2-rescue:R-Device-prius_gen2-rescue R31
 U 1 1 6160E8C8
 P 7575 3175
 F 0 "R31" H 7645 3221 50  0000 L CNN
-F 1 "4.7k" H 7645 3130 50  0000 L CNN
+F 1 "4.7" H 7645 3130 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7505 3175 50  0001 C CNN
 F 3 "~" H 7575 3175 50  0001 C CNN
 	1    7575 3175
@@ -321,7 +288,7 @@ L prius_gen2-rescue:R-Device-prius_gen2-rescue R32
 U 1 1 61615A70
 P 7575 4475
 F 0 "R32" H 7645 4521 50  0000 L CNN
-F 1 "4.7k" H 7645 4430 50  0000 L CNN
+F 1 "4.7" H 7645 4430 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7505 4475 50  0001 C CNN
 F 3 "~" H 7575 4475 50  0001 C CNN
 	1    7575 4475
@@ -430,4 +397,37 @@ Wire Wire Line
 Connection ~ 4050 4350
 Wire Wire Line
 	4050 4350 4225 4350
+$Comp
+L prius_gen2-rescue:R-Device-prius_gen2-rescue R29
+U 1 1 60EAC5BA
+P 5225 3050
+F 0 "R29" V 5018 3050 50  0000 C CNN
+F 1 "5.9k" V 5109 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5155 3050 50  0001 C CNN
+F 3 "~" H 5225 3050 50  0001 C CNN
+	1    5225 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L prius_gen2-rescue:R-Device-prius_gen2-rescue R28
+U 1 1 60EAC478
+P 4750 3050
+F 0 "R28" V 4543 3050 50  0000 C CNN
+F 1 "5.9k" V 4634 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 3050 50  0001 C CNN
+F 3 "~" H 4750 3050 50  0001 C CNN
+	1    4750 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L prius_gen2-rescue:R-Device-prius_gen2-rescue R27
+U 1 1 60EAC28E
+P 4275 3050
+F 0 "R27" V 4068 3050 50  0000 C CNN
+F 1 "5.9k" V 4159 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4205 3050 50  0001 C CNN
+F 3 "~" H 4275 3050 50  0001 C CNN
+	1    4275 3050
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
