@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# prius_gen2-rescue_+12V-power
+# prius_gen2-rescue_+12V-power-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_+12V-power #PWR 0 0 Y Y 1 F P
+DEF prius_gen2-rescue_+12V-power-prius_gen2-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "prius_gen2-rescue_+12V-power" 0 140 50 H V C CNN
+F1 "prius_gen2-rescue_+12V-power-prius_gen2-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_+3.3V-power
+# prius_gen2-rescue_+3.3V-power-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
+DEF prius_gen2-rescue_+3.3V-power-prius_gen2-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "prius_gen2-rescue_+3.3V-power" 0 140 50 H V C CNN
+F1 "prius_gen2-rescue_+3.3V-power-prius_gen2-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_+3V3-power
+# prius_gen2-rescue_+3V3-power-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_+3V3-power #PWR 0 0 Y Y 1 F P
+DEF prius_gen2-rescue_+3V3-power-prius_gen2-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "prius_gen2-rescue_+3V3-power" 0 140 50 H V C CNN
+F1 "prius_gen2-rescue_+3V3-power-prius_gen2-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -46,11 +46,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_+5V-power
+# prius_gen2-rescue_+5V-power-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+DEF prius_gen2-rescue_+5V-power-prius_gen2-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "prius_gen2-rescue_+5V-power" 0 140 50 H V C CNN
+F1 "prius_gen2-rescue_+5V-power-prius_gen2-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -61,11 +61,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_AZ1117-3.3-Regulator_Linear
+# prius_gen2-rescue_AZ1117-3.3-Regulator_Linear-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_AZ1117-3.3-Regulator_Linear U 0 10 Y Y 1 F N
+DEF prius_gen2-rescue_AZ1117-3.3-Regulator_Linear-prius_gen2-rescue U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "prius_gen2-rescue_AZ1117-3.3-Regulator_Linear" 0 125 50 H V L CNN
+F1 "prius_gen2-rescue_AZ1117-3.3-Regulator_Linear-prius_gen2-rescue" 0 125 50 H V L CNN
 F2 "" 0 250 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -83,11 +83,11 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_C-Device
+# prius_gen2-rescue_C-Device-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_C-Device C 0 10 N Y 1 F N
+DEF prius_gen2-rescue_C-Device-prius_gen2-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "prius_gen2-rescue_C-Device" 25 -100 50 H V L CNN
+F1 "prius_gen2-rescue_C-Device-prius_gen2-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -101,11 +101,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_CP-Device
+# prius_gen2-rescue_CP-Device-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_CP-Device C 0 10 N Y 1 F N
+DEF prius_gen2-rescue_CP-Device-prius_gen2-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "prius_gen2-rescue_CP-Device" 25 -100 50 H V L CNN
+F1 "prius_gen2-rescue_CP-Device-prius_gen2-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -121,11 +121,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_C_Small-Device
+# prius_gen2-rescue_C_Small-Device-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_C_Small-Device C 0 10 N N 1 F N
+DEF prius_gen2-rescue_C_Small-Device-prius_gen2-rescue C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "prius_gen2-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F1 "prius_gen2-rescue_C_Small-Device-prius_gen2-rescue" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -139,11 +139,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_Conn_01x03_Male-Connector
+# prius_gen2-rescue_Conn_01x03_Male-Connector-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_Conn_01x03_Male-Connector J 0 40 Y N 1 F N
+DEF prius_gen2-rescue_Conn_01x03_Male-Connector-prius_gen2-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "prius_gen2-rescue_Conn_01x03_Male-Connector" 0 -200 50 H V C CNN
+F1 "prius_gen2-rescue_Conn_01x03_Male-Connector-prius_gen2-rescue" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -162,11 +162,11 @@ X Pin_3 3 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_Conn_01x06-Connector_Generic
+# prius_gen2-rescue_Conn_01x06-Connector_Generic-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_Conn_01x06-Connector_Generic J 0 40 Y N 1 F N
+DEF prius_gen2-rescue_Conn_01x06-Connector_Generic-prius_gen2-rescue J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "prius_gen2-rescue_Conn_01x06-Connector_Generic" 0 -400 50 H V C CNN
+F1 "prius_gen2-rescue_Conn_01x06-Connector_Generic-prius_gen2-rescue" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -189,11 +189,11 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_Conn_01x14-Connector_Generic
+# prius_gen2-rescue_Conn_01x14-Connector_Generic-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_Conn_01x14-Connector_Generic J 0 40 Y N 1 F N
+DEF prius_gen2-rescue_Conn_01x14-Connector_Generic-prius_gen2-rescue J 0 40 Y N 1 F N
 F0 "J" 0 700 50 H V C CNN
-F1 "prius_gen2-rescue_Conn_01x14-Connector_Generic" 0 -800 50 H V C CNN
+F1 "prius_gen2-rescue_Conn_01x14-Connector_Generic-prius_gen2-rescue" 0 -800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -232,11 +232,11 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_Conn_01x23-Connector_Generic
+# prius_gen2-rescue_Conn_01x23-Connector_Generic-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_Conn_01x23-Connector_Generic J 0 40 Y N 1 F N
+DEF prius_gen2-rescue_Conn_01x23-Connector_Generic-prius_gen2-rescue J 0 40 Y N 1 F N
 F0 "J" 0 1200 50 H V C CNN
-F1 "prius_gen2-rescue_Conn_01x23-Connector_Generic" 0 -1200 50 H V C CNN
+F1 "prius_gen2-rescue_Conn_01x23-Connector_Generic-prius_gen2-rescue" 0 -1200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -293,11 +293,11 @@ X Pin_9 9 -200 300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_Conn_02x05_Odd_Even-Connector_Generic
+# prius_gen2-rescue_Conn_02x05_Odd_Even-Connector_Generic-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_Conn_02x05_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+DEF prius_gen2-rescue_Conn_02x05_Odd_Even-Connector_Generic-prius_gen2-rescue J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "prius_gen2-rescue_Conn_02x05_Odd_Even-Connector_Generic" 50 -300 50 H V C CNN
+F1 "prius_gen2-rescue_Conn_02x05_Odd_Even-Connector_Generic-prius_gen2-rescue" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -328,11 +328,11 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_Crystal-Device
+# prius_gen2-rescue_Crystal-Device-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_Crystal-Device Y 0 40 N N 1 F N
+DEF prius_gen2-rescue_Crystal-Device-prius_gen2-rescue Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "prius_gen2-rescue_Crystal-Device" 0 -150 50 H V C CNN
+F1 "prius_gen2-rescue_Crystal-Device-prius_gen2-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -349,11 +349,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_D_Schottky-Device
+# prius_gen2-rescue_D_Schottky-Device-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_D_Schottky-Device D 0 40 N N 1 F N
+DEF prius_gen2-rescue_D_Schottky-Device-prius_gen2-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "prius_gen2-rescue_D_Schottky-Device" 0 -100 50 H V C CNN
+F1 "prius_gen2-rescue_D_Schottky-Device-prius_gen2-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -371,11 +371,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_D_TVS_x2_AAC-Device
+# prius_gen2-rescue_D_TVS_x2_AAC-Device-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_D_TVS_x2_AAC-Device D 0 40 Y N 1 F N
+DEF prius_gen2-rescue_D_TVS_x2_AAC-Device-prius_gen2-rescue D 0 40 Y N 1 F N
 F0 "D" 0 175 50 H V C CNN
-F1 "prius_gen2-rescue_D_TVS_x2_AAC-Device" 0 100 50 H V C CNN
+F1 "prius_gen2-rescue_D_TVS_x2_AAC-Device-prius_gen2-rescue" 0 100 50 H V C CNN
 F2 "" -150 0 50 H I C CNN
 F3 "" -150 0 50 H I C CNN
 DRAW
@@ -392,11 +392,11 @@ X common 3 0 -150 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_ESD9B3.3ST5G-Diode
+# prius_gen2-rescue_ESD9B3.3ST5G-Diode-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_ESD9B3.3ST5G-Diode D 0 40 N N 1 F N
+DEF prius_gen2-rescue_ESD9B3.3ST5G-Diode-prius_gen2-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "prius_gen2-rescue_ESD9B3.3ST5G-Diode" 0 -100 50 H V C CNN
+F1 "prius_gen2-rescue_ESD9B3.3ST5G-Diode-prius_gen2-rescue" 0 -100 50 H V C CNN
 F2 "Diode_SMD:D_SOD-923" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -412,11 +412,11 @@ X A2 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_ESP32-WROOM-32-RF_Module
+# prius_gen2-rescue_ESP32-WROOM-32-RF_Module-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_ESP32-WROOM-32-RF_Module U 0 20 Y Y 1 F N
+DEF prius_gen2-rescue_ESP32-WROOM-32-RF_Module-prius_gen2-rescue U 0 20 Y Y 1 F N
 F0 "U" -500 1350 50 H V L CNN
-F1 "prius_gen2-rescue_ESP32-WROOM-32-RF_Module" 50 1350 50 H V L CNN
+F1 "prius_gen2-rescue_ESP32-WROOM-32-RF_Module-prius_gen2-rescue" 50 1350 50 H V L CNN
 F2 "RF_Module:ESP32-WROOM-32" 0 -1500 50 H I C CNN
 F3 "" -300 50 50 H I C CNN
 $FPLIST
@@ -466,11 +466,11 @@ X IO33 9 600 -900 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_Ferrite_Bead-Device
+# prius_gen2-rescue_Ferrite_Bead-Device-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_Ferrite_Bead-Device FB 0 0 N Y 1 F N
+DEF prius_gen2-rescue_Ferrite_Bead-Device-prius_gen2-rescue FB 0 0 N Y 1 F N
 F0 "FB" -150 25 50 V V C CNN
-F1 "prius_gen2-rescue_Ferrite_Bead-Device" 150 0 50 V V C CNN
+F1 "prius_gen2-rescue_Ferrite_Bead-Device-prius_gen2-rescue" 150 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -487,11 +487,11 @@ X ~ 2 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_GND-power
+# prius_gen2-rescue_GND-power-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF prius_gen2-rescue_GND-power-prius_gen2-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "prius_gen2-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "prius_gen2-rescue_GND-power-prius_gen2-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -500,11 +500,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_INDUCTOR-pspice
+# prius_gen2-rescue_INDUCTOR-pspice-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_INDUCTOR-pspice L 0 0 N Y 1 F N
+DEF prius_gen2-rescue_INDUCTOR-pspice-prius_gen2-rescue L 0 0 N Y 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "prius_gen2-rescue_INDUCTOR-pspice" 0 -50 50 H V C CNN
+F1 "prius_gen2-rescue_INDUCTOR-pspice-prius_gen2-rescue" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -517,11 +517,11 @@ X 2 2 250 0 50 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_IRLZ34N-Transistor_FET
+# prius_gen2-rescue_IRLZ34N-Transistor_FET-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_IRLZ34N-Transistor_FET Q 0 20 Y N 1 F N
+DEF prius_gen2-rescue_IRLZ34N-Transistor_FET-prius_gen2-rescue Q 0 20 Y N 1 F N
 F0 "Q" 250 75 50 H V L CNN
-F1 "prius_gen2-rescue_IRLZ34N-Transistor_FET" 250 0 50 H V L CNN
+F1 "prius_gen2-rescue_IRLZ34N-Transistor_FET-prius_gen2-rescue" 250 0 50 H V L CNN
 F2 "Package_TO_SOT_THT:TO-220-3_Vertical" 250 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -548,11 +548,11 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_LED-Device
+# prius_gen2-rescue_LED-Device-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_LED-Device D 0 40 N N 1 F N
+DEF prius_gen2-rescue_LED-Device-prius_gen2-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "prius_gen2-rescue_LED-Device" 0 -100 50 H V C CNN
+F1 "prius_gen2-rescue_LED-Device-prius_gen2-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -571,11 +571,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_LMR14020-lmr14020
+# prius_gen2-rescue_LMR14020-lmr14020-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_LMR14020-lmr14020 U 0 40 Y Y 1 F N
+DEF prius_gen2-rescue_LMR14020-lmr14020-prius_gen2-rescue U 0 40 Y Y 1 F N
 F0 "U" -150 -450 50 H V C CNN
-F1 "prius_gen2-rescue_LMR14020-lmr14020" 100 350 50 H V C CNN
+F1 "prius_gen2-rescue_LMR14020-lmr14020-prius_gen2-rescue" 100 350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -592,11 +592,11 @@ X GND 9 50 -450 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_MCP602-Amplifier_Operational
+# prius_gen2-rescue_MCP602-Amplifier_Operational-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_MCP602-Amplifier_Operational U 0 5 Y Y 3 L N
+DEF prius_gen2-rescue_MCP602-Amplifier_Operational-prius_gen2-rescue U 0 5 Y Y 3 L N
 F0 "U" 0 200 50 H V L CNN
-F1 "prius_gen2-rescue_MCP602-Amplifier_Operational" 0 -200 50 H V L CNN
+F1 "prius_gen2-rescue_MCP602-Amplifier_Operational-prius_gen2-rescue" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -626,11 +626,11 @@ X V+ 8 -100 300 150 D 50 50 3 1 W
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_PWR_FLAG-power
+# prius_gen2-rescue_PWR_FLAG-power-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_PWR_FLAG-power #FLG 0 0 N N 1 F P
+DEF prius_gen2-rescue_PWR_FLAG-power-prius_gen2-rescue #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "prius_gen2-rescue_PWR_FLAG-power" 0 150 50 H V C CNN
+F1 "prius_gen2-rescue_PWR_FLAG-power-prius_gen2-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -639,11 +639,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_R-Device
+# prius_gen2-rescue_R-Device-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_R-Device R 0 0 N Y 1 F N
+DEF prius_gen2-rescue_R-Device-prius_gen2-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "prius_gen2-rescue_R-Device" 0 0 50 V V C CNN
+F1 "prius_gen2-rescue_R-Device-prius_gen2-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -656,11 +656,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_STM32F103VBTx-MCU_ST_STM32F1
+# prius_gen2-rescue_STM32F103VBTx-MCU_ST_STM32F1-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_STM32F103VBTx-MCU_ST_STM32F1 U 0 20 Y Y 1 F N
+DEF prius_gen2-rescue_STM32F103VBTx-MCU_ST_STM32F1-prius_gen2-rescue U 0 20 Y Y 1 F N
 F0 "U" -800 2550 50 H V L CNN
-F1 "prius_gen2-rescue_STM32F103VBTx-MCU_ST_STM32F1" 600 2550 50 H V L CNN
+F1 "prius_gen2-rescue_STM32F103VBTx-MCU_ST_STM32F1-prius_gen2-rescue" 600 2550 50 H V L CNN
 F2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" -800 -2600 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -771,11 +771,11 @@ X VSS 99 300 -2800 200 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_SW_Push-Switch
+# prius_gen2-rescue_SW_Push-Switch-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_SW_Push-Switch SW 0 40 N N 1 F N
+DEF prius_gen2-rescue_SW_Push-Switch-prius_gen2-rescue SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "prius_gen2-rescue_SW_Push-Switch" 0 -60 50 H V C CNN
+F1 "prius_gen2-rescue_SW_Push-Switch-prius_gen2-rescue" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -788,11 +788,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_SolderJumper_2_Open-Jumper
+# prius_gen2-rescue_SolderJumper_2_Open-Jumper-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_SolderJumper_2_Open-Jumper JP 0 0 Y N 1 F N
+DEF prius_gen2-rescue_SolderJumper_2_Open-Jumper-prius_gen2-rescue JP 0 0 Y N 1 F N
 F0 "JP" 0 80 50 H V C CNN
-F1 "prius_gen2-rescue_SolderJumper_2_Open-Jumper" 0 -100 50 H V C CNN
+F1 "prius_gen2-rescue_SolderJumper_2_Open-Jumper-prius_gen2-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -810,11 +810,11 @@ X B 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_TDA2822D-TDA2822D
+# prius_gen2-rescue_TDA2822D-TDA2822D-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_TDA2822D-TDA2822D U 0 40 Y N 2 L N
+DEF prius_gen2-rescue_TDA2822D-TDA2822D-prius_gen2-rescue U 0 40 Y N 2 L N
 F0 "U" 200 125 50 H V L BNN
-F1 "prius_gen2-rescue_TDA2822D-TDA2822D" 200 -200 50 H V L BNN
+F1 "prius_gen2-rescue_TDA2822D-TDA2822D-prius_gen2-rescue" 200 -200 50 H V L BNN
 F2 "SOIC127P600X175-8N" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "IPC-7351B" 0 0 50 H I L BNN "STANDARD"
@@ -847,11 +847,11 @@ X ~ 6 -300 -100 200 R 40 40 2 0 I
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_TJA1051T-3-Interface_CAN_LIN
+# prius_gen2-rescue_TJA1051T-3-Interface_CAN_LIN-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_TJA1051T-3-Interface_CAN_LIN U 0 40 Y Y 1 F N
+DEF prius_gen2-rescue_TJA1051T-3-Interface_CAN_LIN-prius_gen2-rescue U 0 40 Y Y 1 F N
 F0 "U" -400 350 50 H V L CNN
-F1 "prius_gen2-rescue_TJA1051T-3-Interface_CAN_LIN" 50 350 50 H V L CNN
+F1 "prius_gen2-rescue_TJA1051T-3-Interface_CAN_LIN-prius_gen2-rescue" 50 350 50 H V L CNN
 F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 -500 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -870,28 +870,11 @@ X S 8 -500 -200 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_TestPoint-Connector
+# prius_gen2-rescue_ULN2003A-Transistor_Array-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_TestPoint-Connector TP 0 30 N N 1 F N
-F0 "TP" 0 270 50 H V C CNN
-F1 "prius_gen2-rescue_TestPoint-Connector" 0 200 50 H V C CNN
-F2 "" 200 0 50 H I C CNN
-F3 "" 200 0 50 H I C CNN
-$FPLIST
- Pin*
- Test*
-$ENDFPLIST
-DRAW
-C 0 130 30 0 1 0 N
-X 1 1 0 0 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# prius_gen2-rescue_ULN2003A-Transistor_Array
-#
-DEF prius_gen2-rescue_ULN2003A-Transistor_Array U 0 20 Y Y 1 F N
+DEF prius_gen2-rescue_ULN2003A-Transistor_Array-prius_gen2-rescue U 0 20 Y Y 1 F N
 F0 "U" 0 625 50 H V C CNN
-F1 "prius_gen2-rescue_ULN2003A-Transistor_Array" 0 550 50 H V C CNN
+F1 "prius_gen2-rescue_ULN2003A-Transistor_Array-prius_gen2-rescue" 0 550 50 H V C CNN
 F2 "" 50 -550 50 H I L CNN
 F3 "" 100 -200 50 H I C CNN
 $FPLIST
@@ -933,11 +916,11 @@ X COM 9 400 400 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# prius_gen2-rescue_VDDA-power
+# prius_gen2-rescue_VDDA-power-prius_gen2-rescue
 #
-DEF prius_gen2-rescue_VDDA-power #PWR 0 0 Y Y 1 F P
+DEF prius_gen2-rescue_VDDA-power-prius_gen2-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "prius_gen2-rescue_VDDA-power" 0 150 50 H V C CNN
+F1 "prius_gen2-rescue_VDDA-power-prius_gen2-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
