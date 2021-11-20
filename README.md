@@ -11,6 +11,7 @@ Running [openinverter](http://www.openinverter.org) firmware.
     - AMPSEAL connectors
     - 3D printed enclosure
 
+![case](images/case.jpg) 
 ## Prerequisites <a name = "getting_started"></a>
 
 ESP32 needs [ported webinterface](https://github.com/Bedz01/esp32-web-interface-port)
