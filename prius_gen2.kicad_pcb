@@ -32,7 +32,6 @@
 
   (setup
     (pad_to_mask_clearance 0)
-    (solder_mask_min_width 0.25)
     (pcbplotparams
       (layerselection 0x0000010_7ffffff8)
       (disableapertmacros false)
@@ -7654,7 +7653,7 @@
   (gr_text "SWD" (at 138.955 70.2995 90) (layer "B.SilkS") (tstamp 56604e07-2ba1-457a-83a4-abceb056b88c)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "Prius G2 rev 4\n2022-12" (at 165.777 71.7995 180) (layer "B.SilkS") (tstamp ec6b56e3-7aaf-4e31-bd1e-15ab204e1691)
+  (gr_text "Prius G2 rev 4\n2023-01" (at 165.777 71.7995 180) (layer "B.SilkS") (tstamp ec6b56e3-7aaf-4e31-bd1e-15ab204e1691)
     (effects (font (size 1.25 1.25) (thickness 0.3)) (justify mirror))
   )
   (gr_text "+5V" (at 106.955 98.2995) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-000060e64e53)
