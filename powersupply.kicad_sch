@@ -1480,7 +1480,7 @@
     (property "Reference" "D6" (at 181.102 80.7466 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "D_Schottky" (at 181.102 83.058 90)
+    (property "Value" "D_Schottky" (at 189.23 74.295 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Diode_SMD:D_SMA" (at 179.07 81.915 0)
